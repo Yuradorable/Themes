@@ -5,7 +5,8 @@ This repository is dedicated to themes for Discord client mods, such as [Bandage
 ## Available Themes
 - Crystalline (10/05/2020)
 - Minimal 
-![Crystalline Theme](https://i.postimg.cc/13HSqZTK/Yuras-Crystalline.gif)
+
+![Crystalline Theme](https://i.postimg.cc/6Qgm7j90/Crystalline-by-Yura.png)
 
 
 
