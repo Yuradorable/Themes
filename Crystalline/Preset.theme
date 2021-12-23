@@ -1,0 +1,49 @@
+//META{"name":"Crystalline Preset","description":"A transparent preset of Neutron 8 by Spectra with dark modals.","author":"Yura","version":"AutoUpdate","invite":"PZdnCVD","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.me/"}*//
+
+/* IMPORTANT NOTICE
+1. TRANSPARENCY
+This is a fully transparent preset and requires the transparency setting in BetterDiscord to be enabled. Upon enabling, a full restart (quit task) is required. 
+The transparency setting can be found through User Settings -> Settings underneath Bandaged BD -> Enable Transparency.
+The transparency might be too see-through or not enough to your liking. This can be changed with the variable --DarkOverlay in the root section below.
+
+2. SCROLL BARS
+This preset does not use scroll bars. This means this preset is supposed to be used with a mouse or a touchpad which supports virtual scrolling.
+
+3. PRESET VARIABLES
+The preset is not delivered with the showcase images for the home button, folder icons and profile activity image. You can add these yourself with the variables in the root section below.
+Make sure to follow the format --variable: url('direct link');
+
+4. CONTACT
+You can ask for help regarding the theme Neutron and the preset Crystalline in the Codedotspectra Discord server. Permanent invite link: https://discord.gg/PZdnCVD.
+The theme Neutron is made by Spectra (Spectra#7698) and the preset Crystalline is made by Yura (Yura#9920).
+END OF IMPORTANT NOTICE */
+
+
+/* IMPORT LINKS */
+@import url("https://yuradorable.github.io/Themes/Crystalline/Import.css");
+@import url('https://fonts.googleapis.com/css?family=Quicksand'); /* This is your font @import url link. Do not forget to change --customFont if you are going to change the font. */
+
+
+/* ROOT */
+:root {
+  /* COLORS */
+  --themeColor1: #8D474B; /* This is your primary color. */
+  --themeColor2: #383445; /* This is your secondary color. */
+
+  /* OVERLAY */
+  --DarkOverlay: rgba(1, 1, 1, 0.4); /* This is the whole dark overlay that is over your Discord transparency. Feel free to change the "0.4" if the theme is too dark or too light. Change it to a number between 0 and 1. */
+
+  /* CUSTOM FONT */
+  --customFont: 'Quicksand'; /* This is your font. Do not forget to change the @import url font link as well if you are going to change the font. */
+
+  /* HOME BUTTON */
+  --homeImage: url(''); /* This is your home button image. */
+  --homeImageSize: cover;
+
+  /* CUSTOMS */
+  --ProfileActivityImage: url(''); /* This is your profile activity image. Do not use a GIF file, since the image is already coded to move and groove. */
+  --SpotifyGreen: #008000; /* This is your profile activtiy color for Spotify activity. */
+  --StreamPurple: #800080; /* This is your profile activtiy color for Streaming activity. */
+  --FolderImage: url(''); /* This is your image for the uncollapsed and collapsed folder icon. */
+}
+/* ROOT */
